@@ -18,7 +18,7 @@
   
   
   .linktree-container {
-    background-color:656565; 
+    background-color:rgba(0, 0, 0, 0.5); 
     border-radius: 10px; 
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); 
     padding: 40px;
@@ -46,8 +46,9 @@
   
   .username {
     font-size: 24px;
-    color: #333;
+    color: #FEFEFA;
     margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   .links {
@@ -58,21 +59,57 @@
   
   .link {
     text-decoration: none;
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
+    background-color:#FEFEFA;
+    color:black;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); 
+    padding: 15px;
+    border-radius: 10px;
     margin: 10px 0;
     transition: background-color 0.3s ease;
   }
   
-  .link:hover {
-    background-color: #45a049;
+  #chapter_hover:hover {
+    background-color:whitesmoke;
+    animation: shake 0.5s;
+    transform: scale(1.1);
+    transition: transform 0.3s ease; /* Smooth zoom transition */
+    cursor: pointer;
+    transform: scale(1.1);
+
+  }
+  #linkedin_hover:hover {
+    background-color: whitesmoke;
+    animation: shake 0.5s;
+    transform: scale(1.1);
+    transition: transform 0.3s ease; /* Smooth zoom transition */
+    cursor: pointer;
+    transform: scale(1.1);
+
+
+  }
+  #insta_hover:hover {
+    background-color:whitesmoke;
+    animation: shake 0.5s;
+    transform: scale(1.1);
+    transition: transform 0.3s ease; /* Smooth zoom transition */
+    cursor: pointer;
+    transform: scale(1.1);
+
+  }
+  #X_hover:hover {
+    background-color: whitesmoke;
+    animation: shake 0.5s;
+    transform: scale(1.1);
+    transition: transform 0.3s ease; /* Smooth zoom transition */
+    cursor: pointer;
+    transform: scale(1.1);
+
+
   }
   
   footer {
     margin-top: 20px;
-    color: #666;
+    color:#FEFEFA;
     font-size: 14px;
   }
   
